@@ -1,10 +1,14 @@
 import React from 'react';
 
+import { Button } from '@/components/ui/button';
+import Container from '@/components/Container';
+
 const Home = () => {
   return (
-    <div className="p-10">
+    <Container className="bg-kodegiri-light-green">
       <h2 className="text-xl font-semibold">Home</h2>
-    </div>
+      <Button size="lg">Check Out</Button>
+    </Container>
   );
 }
 
